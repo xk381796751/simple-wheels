@@ -129,8 +129,13 @@
 		</div>
 	</div>
 
-	<script>
 
+	<script src="./lib/dom/index.js"></script>
+	<script src="./lib/tabs/index.js"></script>
+	<script>
+		new Tabs({
+			element: document.querySelectorAll('.tabs')[0]
+		})
 	</script>
 </body>
 
